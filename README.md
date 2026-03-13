@@ -23,6 +23,14 @@ pc.run()
 
 You can also not pass the romfile argument into PC and it will run [GLaBIOS](https://github.com/640-KB/GLaBIOS) from ./cpu/pc_bios.bin, this should be present in the repo by default.
 
+# Screenshots
+![Image showing Supersoft Diagnostics running](screenshots/diag.png)
+
+Note: ignore the memory errors, I believe there is a bug in supersoft diagnostics where it always runs a test on 640K of memory, despite my emulator only emulating 64K of memory.
+
+![Image showing GLaBIOS running](screenshots/bios.png)
+![Image showing 86Box and my emulator running side-by-side](screenshots/side-by-side.png)
+
 # Credits
 Special thanks to:
  - The [OSDev Wiki](https://wiki.osdev.org/) for being a great resource for many parts of the development so far.
