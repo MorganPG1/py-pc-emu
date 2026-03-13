@@ -4,9 +4,13 @@ IBM PC emulator written in python, using the Unicorn library for CPU emulation.
 Note: Do not expect this to be fast, or accurate, or have any features comparable to other emulators. Lots of parts of this are unfinished, however it is functional enough to pass most diagnostic ROMS on everything but Floppy Read and Floppy Controller. Other than that it is currently useless as I have not implemented the FDC as of writing this (however that will hopefully change in the future). This is only a fun little project I wanted to try to get better at OOP (Object Oriented Programming), Python, and emulation.
 
 # How do i use it?
-All you need is the [unicorn library](https://github.com/unicorn-engine/unicorn), and this code. Simply clone this repository, then download the unicorn library:
+All you need is the [unicorn library](https://github.com/unicorn-engine/unicorn), the pygame library, the pillow library, and this code. Simply clone this repository, then download the unicorn library,the pygame library, and the pillow library:
 
-```pip install unicorn```
+```pip install unicorn pygame pillow```
+
+You can also just run the following from the repository root to do the same thing:
+
+```pip install -r requirements.txt```
 
 Then to run it you can just run main.py, which by default should run the Supersoft Diagnostic ROM
 
